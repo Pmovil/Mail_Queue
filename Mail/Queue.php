@@ -600,7 +600,7 @@ class Mail_Queue extends PEAR
      * @return  boolean   whether $value is an MAILQUEUE_ERROR
      * @access public
      */
-    function isError($value)
+    static function isError($value)
     {
         return (is_object($value) && is_a($value, 'pear_error'));
     }
@@ -682,7 +682,7 @@ class Mail_Queue extends PEAR
         } else {
             $err = PEAR::raiseError(sprintf("%s", $msg), $code, $mode);
         }
-        return $err;
+Â  Â  Â  Â  return $err;
     }
 */
 }
