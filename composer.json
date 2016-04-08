@@ -38,7 +38,7 @@
     },
     "type": "library",
     "require": {
-        "pear/pear": "*",
+        "pear/pear-core-minimal": "*",
         "pear/mail": "*",
         "pear/mail_mime": "*"
     },
